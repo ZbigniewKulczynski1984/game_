@@ -64,3 +64,10 @@ function denoteWinner() {
 	document.querySelector('p.wins span').textContent = ++gameSummary.wins;
 	document.querySelector('p.numbers span').textContent = ++gameSummary.numbers;
 }
+
+function denoteLoser() {
+	$('#result').html("<h1 class='alert alert-danger'>You Lose!</h1>");
+	document.querySelector('p.losses span').textContent = ++gameSummary.losses;
+	document.querySelector('p.numbers span').textContent = ++gameSummary.numbers;
+}
+
