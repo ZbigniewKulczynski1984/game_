@@ -1,3 +1,6 @@
+//
+
+
 const gameSummary = {
 	numbers: 0,
 	wins: 0,
@@ -76,3 +79,10 @@ function denoteDraw() {
 	document.querySelector('p.draws span').textContent = ++gameSummary.draws;
 	document.querySelector('p.numbers span').textContent = ++gameSummary.numbers;
 }
+
+// const gameSummary = {
+// 	numbers: 0,
+// 	wins: 0,
+// 	losses: 0,
+// 	draws: 0,
+// };
