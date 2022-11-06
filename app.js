@@ -58,3 +58,9 @@ function rockPaperScissors() {
 			break;
 	}
 }
+
+function denoteWinner() {
+	$('#result').html("<h1 class='alert alert-success'>You Win!</h1>");
+	document.querySelector('p.wins span').textContent = ++gameSummary.wins;
+	document.querySelector('p.numbers span').textContent = ++gameSummary.numbers;
+}
