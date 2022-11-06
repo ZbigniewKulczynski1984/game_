@@ -13,7 +13,11 @@ function rock() {
 }
 
 function paper() {
-    $("#player").html("<i class='symbol far fa-newspaper'></i>");
-    rockPaperScissors();
-  }
+	$('#player').html("<i class='symbol far fa-newspaper'></i>");
+	rockPaperScissors();
+}
 
+function scissors() {
+	$('#player').html("<i class='symbol far fa-hand-scissors'></i>");
+	rockPaperScissors();
+}
