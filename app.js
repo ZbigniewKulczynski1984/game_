@@ -71,3 +71,8 @@ function denoteLoser() {
 	document.querySelector('p.numbers span').textContent = ++gameSummary.numbers;
 }
 
+function denoteDraw() {
+	$('#result').html("<h1 class='alert alert-info'>You Draw!</h1>");
+	document.querySelector('p.draws span').textContent = ++gameSummary.draws;
+	document.querySelector('p.numbers span').textContent = ++gameSummary.numbers;
+}
