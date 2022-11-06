@@ -11,3 +11,9 @@ function rock() {
 	$('#player').html("<i class='symbol far fa-hand-rock'></i>");
 	rockPaperScissors();
 }
+
+function paper() {
+    $("#player").html("<i class='symbol far fa-newspaper'></i>");
+    rockPaperScissors();
+  }
+
